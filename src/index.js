@@ -109,14 +109,14 @@ const fizzBizz = function (num) {
 //        return f"{self.name} is a {self.species}"
 
 class Animal {
-    constructor(species, name) {
-        this.species = species;
-        this.name = name;
-    }
+  constructor(species, name) {
+    this.species = species;
+    this.name = name;
+  }
 
-    toString() {
-        return `${this.name} is a ${this.species}`;
-    }
+  toString() {
+    return `${this.name} is a ${this.species}`;
+  }
 }
 
 // class Dog(Animal):
